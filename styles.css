@@ -1,0 +1,421 @@
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color:#000000;
+}
+::-webkit-scrollbar-thumb{
+    width: 0.5rem;
+    background-color: #FB7F0E;
+    border-radius: 5rem;
+}
+.bg1{
+    height: 1000px;
+    width:  1000px;
+}
+
+
+
+
+.first {
+    height: 700px;
+    width: 1198px;
+    background-image: url(images/louis-hansel-zbqWr6u-sSk-unsplash1.jpg); 
+    opacity: 0.9;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+    height: 110px;
+    width: 152px;
+    padding-left: 54px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+
+nav ul {
+    margin-top: -102px;
+    margin-left: 457px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+nav ul li a::after {
+    content: '';
+    width: 00%;
+    height: 3px;
+    background: #FB7F0E;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: lighter;
+    font-size: 100px;
+    align-items: center;
+    margin-top: 175px;
+    margin-bottom: 1px;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.about {
+
+    width: 380px;
+    height: 480px;
+    margin-top: 77px;
+    margin-left: 75px;
+    padding-top: 239px;
+    flex-basis: 35%;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.aboutimg {
+    width: 415px;
+    height: 480px;
+
+    border-radius: 15px;
+}
+
+.subtitle {
+    font-size: 60px;
+    font-weight: 600;
+    flex-basis: 60%;
+}
+
+.para {
+    margin-left: 513px;
+    flex-basis: 60%;
+    font-size: 18px;
+    color: black;
+    margin-top: -608px;
+
+}
+
+.aboutimg1 {
+    width: 325px;
+    height: 277px;
+    padding-left: 471px;
+    padding-top: 24px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+    margin-top: -265px;
+    margin-left: 513px;
+    font-weight: lighter;
+    border-bottom: black;
+    border: 5px;
+}
+
+.para1 {
+    padding-top: 580px;
+}
+
+.subtitle {
+    border-bottom: black;
+    border: 5px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+    height: 244px;
+}
+
+.product-container .box {
+    padding: 20px;
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54/15%);
+    border-radius: 0.5rem;
+    position: relative;
+
+}
+
+.product-container .box:hover {
+    transform: scale(1.1);
+
+}
+
+.product-container .box img {
+    width: 244px;
+    object-fit: contain;
+    height: 164px;
+    object-position: center;
+}
+
+.product-container .box .h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.product-container .box .price {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: #FB7F0E;
+}
+
+.product-container .box .bx-cart-alt {
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    padding: 10px;
+    background-color: #FB7F0E;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+
+.product-container .box .bx-cart-alt:hover {
+    background: black;
+    transition: 0.2s all linear;
+}
+
+.product-container .box .bx-heart {
+    position: absolute;
+    top: 205px;
+    right: 2rem;
+    font-size: 20px;
+    color: #FB7F0E;
+}
+
+.product-container .box .discount {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    padding: 4px 18px;
+    background-color: #FB7F0E;
+    border-radius: 13px;
+}
+
+.contain {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -12px;
+}
+
+.head {
+    margin-top: 10px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.outer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 260px 4px;
+}
+
+.inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+}
+
+.product {
+    margin-top: 185px;
+}
+
+.btn {
+    margin-left: 772px;
+    margin-top: 51px;
+    background-color: #FB7F0E;
+    color: #fff;
+    border-radius: 27px;
+    border-color: #FB7F0E;
+    font-family: 'Poppins', sans-serif;
+    height: 49px;
+    width: 148px;
+    font-size: 19px;
+}
+
+.btn:hover {
+    background-color: #eb9f48;
+    border-color: #eb9f48;
+    color: black;
+}
+
+.services {
+    margin-top: 2080px;
+}
+
+.customer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    height: 244px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+    height: 244px;
+}
+
+.customer .box {
+    padding: 20px;
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54/15%);
+    border-radius: 0.5rem;
+
+}
+
+.customer .box:hover {
+    transform: translateY(10px);
+    transition: 0.2s all linear;
+}
+
+.form {
+    margin-top: 600px;
+
+}
+
+.name {
+    margin-left: 394px;
+    margin-top: 48px;
+    width: 455px;
+    padding-left: 10px;
+    background-color: #d9d9d9;
+    height: 32px;
+}
+
+.email {
+    margin-left: 394px;
+    margin-top: 34px;
+    width: 455px;
+    padding-left: 10px;
+    height: 32px;
+    background-color: #d9d9d9;
+}
+
+.phone {
+    margin-left: 394px;
+    margin-top: 34px;
+    width: 200px;
+    margin-right: 77px;
+    padding-left: 10px;
+    background-color: #d9d9d9;
+    height: 32px;
+}
+
+.msg {
+    margin-left: 394px;
+    margin-top: 34px;
+    margin-right: 77px;
+    background-color: #d9d9d9;
+}
+.people{
+    height: 32px;
+    background-color: #d9d9d9;
+    padding-left: 10px;
+}
+.sub{
+    margin-top: 80px;
+    margin-left: 500px;
+    width: 200px;
+    height: 33px;
+    border-radius: 17px;
+    background-color:#FB7F0E;
+    color: #fff;
+    border-radius: 27px;
+    border-color: #FB7F0E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    
+}
+.sub:hover{
+    background-color: #eb9f48;
+    border-color: #eb9f48;
+    color: black; 
+}
+.footer-img{
+    height: 250px;
+    width: 1187px;
+    margin-top: 60px;
+}
+.footer-img2{
+    height: 209px;
+    width: 1187px;
+   margin-top: -6px;
+}
+.icon1 {
+color: #fff;
+margin-left: 520px;
+  margin-top: 10px;
+
+}
+.icon1 a{
+    color: #fff;
+    padding-left: 20px;
+}
+.icon1 a:hover{
+    color: #020000;
+    background-color: #fff;
+    border-radius: 8rem;
+    transition: 0.2s all linear;
+}
+/* <!---responsive--> */
+@media (max-width:1080px) {
+    
+}
+@media (max-width:852px){
+
+}
